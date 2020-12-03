@@ -51,8 +51,6 @@ const secondPuzzle = (
     return treesEncountered;
   })
 
-
-  console.log('🚀 ~ file: index.ts ~ line 56 ~ amountOfEncounteredTrees', amountOfEncounteredTrees);
   return amountOfEncounteredTrees.reduce((p, n) => p * n)
 }
 
