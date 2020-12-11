@@ -10,4 +10,7 @@ console.log('Output of the first puzzle is: ', firstPuzzle(
 ))
 
 
-console.log('Output of the second puzzle is: ', secondPuzzle())
+console.log('Output of the second puzzle is: ', secondPuzzle(  
+  input,
+  25
+))
